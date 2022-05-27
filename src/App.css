@@ -1,0 +1,74 @@
+
+table { 
+  width: 100%; 
+  border-collapse:initial; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: rgba(10, 3, 228, 0.556); 
+  color: white; 
+  font-weight: bold; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 200px !important; 
+  padding-top: 50px !important; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+/* Responsive*/ 
+
+
+/* 992px - 1200px */ 
+@media screen and (max-width: 1200px) {
+	
+}
+
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	
+} 
+
+
+/* 576px - 768px */ 
+@media screen and (max-width: 768px) {
+	
+}
+
+
+/* 0 - 576px */ 
+@media screen and (max-width: 576px) {
+	
+}
+
+
+  div.container {
+    width:98%; 
+    margin:1%;
+  }
+  table#table1 {
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:100px;
+  }
+  tr,td {text-align:left;}
+
+
+  .App-div { 
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
