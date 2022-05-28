@@ -29,11 +29,11 @@ function MyTable() {
                     <Table style={{textAlign: "center",}} sx={{ minWidth: 650 }}>
                         <TableHead>
                             <TableRow>
-                                <TableCell align="center">Full name</TableCell>
-                                <TableCell align="center">ID</TableCell>
-                                <TableCell align="center">Phone number</TableCell>
-                                <TableCell align="center">IP address</TableCell>
-                                <TableCell align="center">Delete</TableCell>
+                                <TableCell style={{color: "white"}}align="center">Full name</TableCell>
+                                <TableCell style={{color: "white"}}align="center">ID</TableCell>
+                                <TableCell style={{color: "white"}}align="center">Phone number</TableCell>
+                                <TableCell style={{color: "white"}}align="center">IP address</TableCell>
+                                <TableCell style={{color: "white"}}align="center">Delete</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>

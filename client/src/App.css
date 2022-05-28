@@ -8,7 +8,7 @@ tr:nth-of-type(odd) {
   background: #eee; 
 }
 th { 
-  background: rgba(10, 3, 228, 0.556); 
+  background: black; 
   color: white; 
   font-weight: bold; 
   background-position: center;
@@ -71,4 +71,5 @@ td, th {
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-  }
+    background-image: url(../public/humanzz.png); 
+ }

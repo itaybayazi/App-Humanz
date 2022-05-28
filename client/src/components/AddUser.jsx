@@ -55,7 +55,7 @@ function AddUser() {
     }
 
     return (
-        <div style={{textAlign: "center",}}>
+        <div style={{textAlign: "center"}}>
             <Button onClick={handleClickOpen}>Click here to add User</Button>
             <Dialog open={open} onClose={handleClose}>
                 <form>

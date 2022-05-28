@@ -9,7 +9,7 @@ function App() {
   return (
     
     <div className='App-div'>
-      <h1  style={{textAlign: "center",}} > Users Table By Itay Bayazi</h1>
+      <h1  style={{textAlign: "center"}} > Users Table By Itay Bayazi</h1>
       <AddUser></AddUser>
       <MyTable></MyTable>
     </div>
