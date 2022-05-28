@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Table, TableContainer, TableHead, TableRow, TableCell, TableBody, Card, Button } from "@material-ui/core";
 import Pagination from "@material-ui/lab/Pagination";
 import Users from "../Users";
-import "./MyTable.css";
+
 
 const NUMBER_PER_PAGE = 10;
 
